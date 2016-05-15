@@ -10,7 +10,7 @@ sudo apt-get -y install curl
 # vim
 sudo apt-get -y install vim
 stat ~/.vim || curl vimfiles.luan.sh/install | bash
-curl vimfiles.luan.sh/install | bash
+~/.vim/update
 
 # tmux
 sudo apt-get -y install tmux
